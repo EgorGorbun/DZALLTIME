@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <u>
+            <h1 align="center">ДЗ 7</h1>
+        </u>
+
+        <h1 align="center">Задание 1</h1>
+        <style type="text/css">
+            .fgkd {
+                position: absolute;
+                left: 50px;
+                top: 50px;
+                width: 100px;
+                height: 100px;
+            }
+        </style>
+        <img src="gagarka.jpg" class="fgkd" alt="">
+
+        <h1 align="center">Задание 2</h1>
+        <style type="text/css">
+            .tatarka {
+                position: absolute;
+                left: 25px;
+                top: 20px;
+                width: 200px;
+                height: 200px;
+                z-index: 0;
+            }
+
+            .texta {
+                position: absolute;
+                left: 25px;
+                top: 20px;
+                z-index: 1;
+                font-size: 30px;
+                color: red;
+            }
+        </style>
+        <img src="gagarka.jpg" class="tatarka" alt="">
+        <p class="texta">Картинка</p>
+
+        <h1 align="center">Задание 3</h1>
+        <style type="text/css">
+            .imaga {
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                width: 200px;
+                height: 200px;
+                z-index: 0;
+            }
+        </style>
+        <img src="gagarka.jpg" class="imaga" alt="">
+
+        <h1 align="center">Задание 4</h1>
+        <style type="text/css">
+            .imaga1 {
+                position: absolute;
+                z-index: 0;
+            }
+
+            .imaga2 {
+                position: absolute;
+                z-index: 1;
+            }
+
+            .imaga3 {
+                position: absolute;
+                z-index: 2;
+            }
+        </style>
+        <img src="gagarka.jpg" class="imaga3" alt="">
+        <img src="gagarka.jpg" class="imaga1" alt="">
+        <img src="gagarka.jpg" class="imaga2" alt="">
+
+        <h1 align="center">Задание 5</h1>
+        <div class="container">
+            <img src="cheburaha.webp" alt="Основное фото" class="main-photo">
+            <img src="getero.jpg" alt="Маленькое фото" class="small-photo">
+            <div class="overlay-text">С Новым Годом!</div>
+        </div>
+        <style>
+            .container {
+                position: relative;
+                width: 500px;
+                height: 400px;
+                margin: 20px auto;
+            }
+
+            .main-photo {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .small-photo {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                width: 85%;
+                height: auto;
+            }
+
+            .overlay-text {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: red;
+                font-weight: bold;
+                font-size: 2em;
+                text-shadow: 2px 2px 4px #000000;
+            }
+        </style>
+    </main>
+
+</body>
+
+</html>
